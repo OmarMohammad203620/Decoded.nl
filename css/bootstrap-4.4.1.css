@@ -71,10 +71,10 @@ body {
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(0,0,0,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(0,0,0,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(0,0,0,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -192,7 +192,7 @@ a:not([href]) {
 }
 
 a:not([href]):hover {
-    color: inherit;
+    color: #FFFFFF;
     text-decoration: none;
     text-align: left;
 }
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
     font-size: 2.5rem;
-    text-align: left;
+    text-align: center;
     list-style-type: square;
     text-decoration: underline;
     text-indent: 10px;
@@ -4846,7 +4846,9 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 80px;
+    text-align: center;
 }
 
 .card-subtitle {
@@ -4855,7 +4857,9 @@ input[type="button"].btn-block {
 }
 
 .card-text:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    text-align: center;
 }
 
 .card-link:hover {
@@ -10405,4 +10409,5 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .Footerend {
     margin-left: 0px;
+    color: rgba(255,255,255,1.00);
 }
