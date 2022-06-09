@@ -44,8 +44,13 @@ body {
 }
 
 /* Styles for contact icons */
-
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.active {
+	text-decoration: underline;
+  	-webkit-text-decoration-color: red;
+  	text-decoration-color: red;
+	}
