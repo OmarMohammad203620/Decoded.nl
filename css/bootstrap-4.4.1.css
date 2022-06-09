@@ -71,7 +71,11 @@ body {
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    }
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(14,14,14,1.00) 74.09%,rgba(255,255,255,1.00) 100%);
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -400,6 +404,7 @@ h2, .h2 {
 h3, .h3 {
     font-size: 20.75px;
     text-align: left;
+    color: #FFFFFF;
 }
 
 h4, .h4 {
@@ -504,6 +509,7 @@ mark,
 }
 
 .img-fluid {
+    max-width: 33%;
     height: auto;
     max-height: 216pc;
 }
@@ -4818,7 +4824,6 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  width: 50%;
 }
 
 .card > hr {
@@ -10408,9 +10413,4 @@ a.text-dark:hover, a.text-dark:focus {
 .Footerend {
     margin-left: 0px;
     color: rgba(255,255,255,1.00);
-    position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
 }
